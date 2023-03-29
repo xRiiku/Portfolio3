@@ -1,0 +1,8 @@
+.introPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iaPhoto{
+    max-width: 30%;
+}

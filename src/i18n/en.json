@@ -1,0 +1,48 @@
+{
+    "navbar.home" : "Home",
+    "navbar.skills" : "Skills",
+    "navbar.projects" : "Projects",
+    "navbar.contact" : "Contact",
+
+
+
+    "home.title" : "Home",
+    "home.welcome" : "Welcome! I am",
+    "home.student" : "FullStack development student",
+    "home.description": "I am looking for a company where I can gain experience as a developer, constantly wanting to improve and consolidate professionally, to add value to the company by achieving our goals together and becoming a fullstack developer.",
+
+    "skills.title" : "Skills",
+    "skills.learned" : "Learned",
+    "skills.learning" : "Learning",
+
+    "projects.title" : "Projects",
+    "projects.button" : "View project",
+    "projects.portfoliov2" : "Portfolio V2",
+    "projects.portfolio2Desc" : "portfolio used as a presentation to show my knowledge.",
+    "projects.puzzle" : "Game: Puzzle",
+    "projects.puzzleDesc" : "Try to resolve this puzzle that I made with html, css and JavaScript!!",
+    "projects.clone" : "clone practice",
+    "projects.cloneDesc" : "Coinbase clone, did after html-css course on OpenBootcamp.com.",
+    "projects.watch" : "Watch practice",
+    "projects.watchDesc" : "Watch made as a JavaScript practice after dates lesson",
+    "projects.numberCount" : "Number Count",
+    "projects.numberCountDesc" : "Exercise made with React after useState lesson",
+    "projects.portfoliov1" : "Portfolio V1",
+    "projects.portfoliov1Desc" : "First portfolio i did to practise html, css and javascript",
+
+    "contact.title" : "Contact",
+    "contact.name" : "Name (Required)",
+    "contact.email" : "Email (Required)",
+    "contact.topic" : "Topic (Required)",
+    "contact.message" : "Message (Required)",
+    "contact.send" : "Send",
+
+    "error.name" : "Name field cannot be empty",
+    "error.name2" : "Name field accepts only letters and spaces",
+    "error.email" : "Email field cannot be empty",
+    "error.email2" : "Email field contains an invalid format",
+    "error.topic" : "Topic field cannot be empty",
+    "error.topic2" : "Topic field accepts only letters and spaces",
+    "error.message" : "Message field cannot be empty",
+    "error.message2" : "Message field accepts only 255 characters"
+}
