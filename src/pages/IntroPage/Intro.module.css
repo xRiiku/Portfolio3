@@ -1,8 +1,44 @@
 .introPage{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    margin-top: 65px;
 }
-.iaPhoto{
-    max-width: 30%;
+
+.photo p{
+    text-align: center;
+}
+.photo img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.info{
+    font-size: 25pt;
+    width: 45ch;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+
+.typingDemo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-size: 35pt;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+    
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }

@@ -1,11 +1,13 @@
 :root{
-  --body_background: black
+  --body_background: black;
+  --primary_color: #34B0BE;
 }
 
 [data-theme='dark'] {
   background-color: white;
 }
 body {
+  color: var(--primary_color);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

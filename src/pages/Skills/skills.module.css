@@ -1,0 +1,20 @@
+.skillsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 65px;
+    background-color: rgb(9, 139, 172);
+    color: white;
+    gap: 2rem;
+}
+
+.actualSkills{
+    display: flex;
+    gap: 3rem;
+}
+
+.futureSkills{
+    display: flex;
+    gap: 3rem;
+}
