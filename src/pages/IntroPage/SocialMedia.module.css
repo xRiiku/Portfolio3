@@ -1,14 +1,19 @@
-.SocialMedia a{
+.SocialMedia{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 40px;
 }
 
 .SocialMedia img {
     max-width: 20%;
 }
 
+.SocialMedia a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .SocialMedia img:hover{
-    transform: scale(1);
+    filter: invert(100%) 
 }

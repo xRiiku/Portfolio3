@@ -7,9 +7,9 @@ import styles from './SocialMedia.module.css'
 export function SocialMedia() {
     return (
         <div className={styles.SocialMedia}>
-        <a href='https://github.com/xRiiku'><img src={github} alt=''></img></a>
-        <a href='https://www.linkedin.com/in/daniel-ram%C3%B3n-campos-0ab4b4254/'><img src={linkedin} alt=''></img></a>
-        <a href='https://twitter.com/Riku0h'><img src={twitter} alt=''></img></a>
+        <a href='https://github.com/xRiiku' target='_blank' rel='noopener noreferrer'><img src={github} alt=''></img></a>
+        <a href='https://www.linkedin.com/in/daniel-ram%C3%B3n-campos-0ab4b4254/' target='_blank' rel='noopener noreferrer'><img src={linkedin} alt=''></img></a>
+        <a href='https://twitter.com/Riku0h' target='_blank' rel='noopener noreferrer'><img src={twitter} alt=''></img></a>
             
         </div>
     );
