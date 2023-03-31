@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 65px;
+    padding-top: 8rem;
 }
 
 .photo p{
