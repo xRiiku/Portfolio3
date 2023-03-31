@@ -1,4 +1,3 @@
-import './App.css';
 import { NavBar } from './pages/NavBar/NavBar';
 import { Intro } from './pages/IntroPage/Intro.jsx'
 import { Skills } from './pages/Skills/Skills'
