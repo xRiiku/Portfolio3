@@ -4,43 +4,11 @@
     "navbar.projects" : "Proyectos",
     "navbar.contact" : "Contacto",
 
-    "home.title" : "Inicio",
-    "home.welcome" : "Bienvenido! Soy",
-    "home.student" : "Estudiante de desarrollo Fullstack",
-    "home.description" : "Busco una empresa donde pueda ganar experiencia como desarrollador, con ganas de mejorar constantemente y consolidarme profesionalmente, para agregar valor a la empresa logrando juntos nuestros objetivos y convirtiéndome en un desarrollador fullstack.",
 
-    "skills.title" : "Habilidades",
-    "skills.learned" : "Aprendidas",
-    "skills.learning" : "Aprendiendo",
+    "introPage.greeting": "¡Hola! Soy",
+    "introPage.info": "Estudiante autodidacta de programación Front-end. Actualmente en búsqueda de mi primera experiencia laboral dentro del mundo del desarollo web.",
+    "introPage.IAimg": "Imagen generada con IA",
 
-    "projects.title" : "Proyectos",
-    "projects.button" : "Ver proyecto",
-    "projects.portfoliov2" : "Portafolio V2",
-    "projects.portfolio2Desc" : "Portafolio utilizado como presentación para mostrar mis conocimientos.",
-    "projects.puzzle" : "Juego: Puzzle",
-    "projects.puzzleDesc" : "Intenta resolver este rompecabezas que hice con html, css y JavaScript!!",
-    "projects.clone" : "Clon de práctica",
-    "projects.cloneDesc" : "Clon de Coinbase, hecho después del curso de html-css en OpenBootcamp.com.",
-    "projects.watch" : "Reloj de práctica",
-    "projects.watchDesc" : "Reloj hecho como práctica de JavaScript después de la lección de fechas",
-    "projects.numberCount" : "Conteo de números",
-    "projects.numberCountDesc" : "Ejercicio realizado con React después de la lección useState",
-    "projects.portfoliov1" : "Portafolio V1",
-    "projects.portfoliov1Desc" : "Primer portafolio que hice para practicar html, css y javascript",
-
-    "contact.title" : "Contacto",
-    "contact.name" : "Nombre (Obligatorio)",
-    "contact.email" : "Email (Obligatorio)",
-    "contact.topic" : "Asunto (Obligatorio)",
-    "contact.message" : "Mensaje (Obligatorio)",
-    "contact.send" : "Enviar",
-
-    "error.name" : "El campo nombre no puede estar vacío",
-    "error.name2" : "El campo nombre acepta solo letras y espacios",
-    "error.email" : "El campo email no puede estar vacío",
-    "error.email2" : "El campo email contiene un formato inválido",
-    "error.topic" : "El campo asunto no puede estar vacío",
-    "error.topic2" : "El campo asunto acepta solo letras y espacios",
-    "error.message" : "El campo mensaje no puede estar vacío",
-    "error.message2" : "El campo mensaje acepta solo 255 caracteres"
+    "skills.actual": "HABILIDADES ACTUALES",
+    "skills.future": "HABILIDADES FUTURAS"
 }

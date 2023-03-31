@@ -12,12 +12,16 @@ import mongodb from '../../assets/images/mongodb.png'
 import nodejs from '../../assets/images/nodejs.svg'
 import typescript from '../../assets/images/typescript.svg'
 import bootstrap from '../../assets/images/bootstrap.svg'
+import { useTranslation } from 'react-i18next';
 
 export function Skills() {
+
+    const { t } = useTranslation()
+
     return (
         <div className={styles.skillsDiv}>
             <div>
-                <h1>ACTUAL SKILLS</h1>
+                <h1>{t('skills.actual')}</h1>
             </div>
 
             <div className={styles.actualSkills}>
@@ -31,7 +35,7 @@ export function Skills() {
             </div>
 
             <div>
-                <h1>FUTURE SKILLS</h1>
+                <h1>{t('skills.future')}</h1>
             </div>
 
             <div className={styles.futureSkills}>

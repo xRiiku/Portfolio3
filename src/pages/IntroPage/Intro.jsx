@@ -2,8 +2,12 @@ import React from 'react';
 import iaPhoto from '../../assets/images/IAPhoto.png'
 import styles from './Intro.module.css'
 import { SocialMedia } from './SocialMedia';
+import { useTranslation } from 'react-i18next';
 
 export function Intro() {
+
+    const { t } = useTranslation()
+
     return (
         <div className={styles.introPage}>
 
@@ -13,13 +17,13 @@ export function Intro() {
 
             <div className={styles.photo}>
                 <img src={iaPhoto} alt=''/>
-                <p>Imagen generada con IA</p>
+                <p>{t('introPage.IAimg')}</p>
             </div>
 
             <div className={styles.info}>
-                <p>¡Hola! Soy</p>
+                <p>{t('introPage.greeting')}</p>
                 <span className={styles.typingDemo}>Daniel Ramon 'Rikudev'</span>
-                <p>Estudiante autodidacta de programación Front-end. Actualmente en búsqueda de mi primera experiencia laboral dentro del mundo del desarollo web.</p>
+                <p>{t('introPage.info')}</p>
             </div>
 
 
