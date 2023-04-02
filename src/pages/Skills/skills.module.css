@@ -17,4 +17,5 @@
 .futureSkills{
     display: flex;
     gap: 3rem;
+    padding-bottom: 2rem;
 }

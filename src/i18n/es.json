@@ -10,5 +10,19 @@
     "introPage.IAimg": "Imagen generada con IA",
 
     "skills.actual": "HABILIDADES ACTUALES",
-    "skills.future": "HABILIDADES FUTURAS"
+    "skills.future": "HABILIDADES FUTURAS",
+
+    "projects.title" : "PROYECTOS",
+    "projects.portfoliov2" : "Portafolio V2",
+    "projects.portfoliov2Desc" : "Portafolio hecho para practicar React.",
+    "projects.puzzle" : "Juego: Puzzle",
+    "projects.puzzleDesc" : "Puzzle hecho con html, css y JavaScript!",
+    "projects.clone" : "Clon de CoinBase",
+    "projects.cloneDesc" : "Clon CoinBase, hecho después del curso html-css.",
+    "projects.watch" : "Práctica de Reloj",
+    "projects.watchDesc" : "Reloj hecho como práctica de JavaScript",
+    "projects.pokedex" : "Pokedex",
+    "projects.pokedexDesc" : "Pokedex hecha para practicar hooks y fetch",
+    "projects.portfoliov1" : "Portafolio V1",
+    "projects.portfoliov1Desc" : "Portafolio de práctica de html, css y javascript"
 }

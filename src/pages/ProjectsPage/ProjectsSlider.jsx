@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactCardSlider from "react-card-slider-component";
 import styles from './ProjectsSlider.module.css'
+import { useTranslation } from 'react-i18next';
 
 export function ProjectsSlider () {
+
+    const { t } = useTranslation()
 
     const portfoliov1 = (slider)=>{
         window.open('https://www.rikudev.com/PortfolioV1/index.html', '_blank')
@@ -30,19 +33,19 @@ export function ProjectsSlider () {
     
     
     const slides = [
-        {image:"https://www.rikudev.com/SliderImages/PortfolioV1.png",title:"Portfolio V1",description:"Portfolio i did to practise html, css and javascript",clickEvent:portfoliov1},
-        {image:"https://www.rikudev.com/SliderImages/PortfolioV2.png",title:"Portfolio V2",description:"Portfolio did to practise React.",clickEvent:portfoliov2},
-        {image:"https://www.rikudev.com/SliderImages/Coinbase.png",title:"CoinBase Clone",description:"Coinbase clone, did after html-css course.",clickEvent:coinbase},
-        {image:"https://www.rikudev.com/SliderImages/Pokedex.png",title:"Pokedex",description:"Pokedex did with React to practise hooks and fetch",clickEvent:pokedex},
-        {image:"https://www.rikudev.com/SliderImages/Puzzle.png",title:"Game: Puzzle",description:"Puzzle made with html, css and JavaScript!",clickEvent:puzzle},
-        {image:"https://www.rikudev.com/SliderImages/watch.png",title:"Watch practice",description:"Watch made with JavaScript to practice dates",clickEvent:watch},
+        {image:"https://www.rikudev.com/SliderImages/PortfolioV1.png",title:t('projects.portfoliov1') ,description:t('projects.portfoliov1Desc'),clickEvent:portfoliov1},
+        {image:"https://www.rikudev.com/SliderImages/PortfolioV2.png",title:t('projects.portfoliov2') ,description:t('projects.portfoliov2Desc'),clickEvent:portfoliov2},
+        {image:"https://www.rikudev.com/SliderImages/Coinbase.png",title:t('projects.clone') ,description:t('projects.cloneDesc'),clickEvent:coinbase},
+        {image:"https://www.rikudev.com/SliderImages/Pokedex.png",title:t('projects.pokedex') ,description:t('projects.pokedexDesc'),clickEvent:pokedex},
+        {image:"https://www.rikudev.com/SliderImages/Puzzle.png",title:t('projects.puzzle') ,description:t('projects.puzzleDesc'),clickEvent:puzzle},
+        {image:"https://www.rikudev.com/SliderImages/watch.png",title:t('projects.watch') ,description:t('projects.watchDesc'),clickEvent:watch},
     ]
 
         return (
             <div className={styles.container}>
 
                 <div className={styles.title}>
-                    <h1>PROYECTS</h1>
+                    <h1>{t('projects.title')}</h1>
                 </div>
 
                 <div id='body' className={styles.slider}>

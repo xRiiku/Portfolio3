@@ -9,5 +9,19 @@
     "introPage.IAimg": "AI generated image",
 
     "skills.actual": "ACTUAL SKILLS",
-    "skills.future": "FUTURE SKILLS"
+    "skills.future": "FUTURE SKILLS",
+
+    "projects.title" : "PROJECTS",
+    "projects.portfoliov2" : "Portfolio V2",
+    "projects.portfoliov2Desc" : "Portfolio did to practise React.",
+    "projects.puzzle" : "Game: Puzzle",
+    "projects.puzzleDesc" : "Puzzle made with html, css and JavaScript!",
+    "projects.clone" : "CoibBase Clone",
+    "projects.cloneDesc" : "Coinbase clone, did after html-css course.",
+    "projects.watch" : "Watch practice",
+    "projects.watchDesc" : "Watch made as a JavaScript practice",
+    "projects.pokedex" : "Pokedex",
+    "projects.pokedexDesc" : "Pokedex did to practise hooks and fetch",
+    "projects.portfoliov1" : "Portfolio V1",
+    "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript"
 }
