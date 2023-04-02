@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
     background-color: aliceblue;
+    z-index: 1;
 }
 
 
