@@ -23,5 +23,22 @@
     "projects.pokedex" : "Pokedex",
     "projects.pokedexDesc" : "Pokedex did to practise hooks and fetch",
     "projects.portfoliov1" : "Portfolio V1",
-    "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript"
+    "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript",
+
+    "contact.title" : "CONTACT",
+    "contact.name" : "Name (Required)",
+    "contact.email" : "Email (Required)",
+    "contact.message" : "Message (Required)",
+    "contact.send" : "Send",
+
+    "contact.leftinfoh2" : "Let's Chat!",
+    "contact.leftinfop1" : "Whether you have a question, want to start a project or simply want to connect.",
+    "contact.leftinfop2" : "Feel free to send me a message in the contact form",
+
+    "error.name" : "Name field cannot be empty",
+    "error.name2" : "Name field accepts only letters and spaces",
+    "error.email" : "Email field cannot be empty",
+    "error.email2" : "Email field contains an invalid format",
+    "error.message" : "Message field cannot be empty",
+    "error.message2" : "Message field accepts only 255 characters"
 }

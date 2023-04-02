@@ -24,5 +24,22 @@
     "projects.pokedex" : "Pokedex",
     "projects.pokedexDesc" : "Pokedex hecha para practicar hooks y fetch",
     "projects.portfoliov1" : "Portafolio V1",
-    "projects.portfoliov1Desc" : "Portafolio de práctica de html, css y javascript"
+    "projects.portfoliov1Desc" : "Portafolio de práctica de html, css y javascript",
+
+    "contact.title" : "CONTACTO",
+    "contact.name" : "Nombre (Obligatorio)",
+    "contact.email" : "Email (Obligatorio)",
+    "contact.message" : "Mensaje (Obligatorio)",
+    "contact.send" : "Enviar",
+
+    "contact.leftinfoh2" : "Hablemos!",
+    "contact.leftinfop1" : "Si tienes una pregunta, quieres iniciar un proyecto o simplemente quieres contactarme",
+    "contact.leftinfop2" : "No dudes en enviarme un mensaje desde el formulario de contacto.",
+
+    "error.name" : "El campo nombre no puede estar vacío",
+    "error.name2" : "El campo nombre acepta solo letras y espacios",
+    "error.email" : "El campo email no puede estar vacío",
+    "error.email2" : "El campo email contiene un formato inválido",
+    "error.message" : "El campo mensaje no puede estar vacío",
+    "error.message2" : "El campo mensaje acepta solo 255 caracteres"
 }
