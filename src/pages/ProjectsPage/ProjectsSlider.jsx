@@ -42,7 +42,7 @@ export function ProjectsSlider () {
     ]
 
         return (
-            <div className={styles.container}>
+            <section className={styles.container} id="projects">
 
                 <div className={styles.title}>
                     <h1>{t('projects.title')}</h1>
@@ -52,7 +52,7 @@ export function ProjectsSlider () {
                     <ReactCardSlider slides={slides}/>
                 </div>
 
-            </div>
+            </section>
     );
 }
 

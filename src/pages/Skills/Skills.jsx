@@ -19,8 +19,8 @@ export function Skills() {
     const { t } = useTranslation()
 
     return (
-        <div className={styles.skillsDiv}>
-            <div>
+        <section className={styles.skillsDiv} id='skills'>
+            <div className={styles.title}>
                 <h1>{t('skills.actual')}</h1>
             </div>
 
@@ -34,7 +34,7 @@ export function Skills() {
                 <img src={github} alt='' />
             </div>
 
-            <div>
+            <div className={styles.title}>
                 <h1>{t('skills.future')}</h1>
             </div>
 
@@ -46,7 +46,7 @@ export function Skills() {
                 <img src={bootstrap} alt='' />
             </div>
 
-        </div>
+        </section>
     );
 }
 

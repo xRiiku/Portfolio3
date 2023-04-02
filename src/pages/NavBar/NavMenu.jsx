@@ -7,10 +7,10 @@ export function NavMenu(){
 
     return (
         <ul>
-            <li><a href='/Home'>{t('navbar.home')}</a></li>
-            <li><a href='/Skills'>{t('navbar.skills')}</a></li>
-            <li><a href='/Projects'>{t('navbar.projects')}</a></li>
-            <li><a href='/Contact'>{t('navbar.contact')}</a></li>
+            <li><a href='#home'>{t('navbar.home')}</a></li>
+            <li><a href='#skills'>{t('navbar.skills')}</a></li>
+            <li><a href='#projects'>{t('navbar.projects')}</a></li>
+            <li><a href='#contact'>{t('navbar.contact')}</a></li>
         </ul>  
     );
 }

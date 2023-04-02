@@ -9,7 +9,7 @@ export function Intro() {
     const { t } = useTranslation()
 
     return (
-        <div className={styles.introPage}>
+        <div className={styles.introPage} id='home'>
 
             <div>
                 <SocialMedia/>
