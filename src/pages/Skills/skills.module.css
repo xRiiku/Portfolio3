@@ -23,3 +23,51 @@
 .title{
     font-size: 20pt;
 }
+
+@media screen and (max-width: 1201px) {
+    .actualSkills {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .futureSkills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    @media screen and (max-width: 675px) {
+        .actualSkills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+    
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .actualSkills img{
+            max-width: 60%;
+        }
+
+        .futureSkills img{
+            max-width: 60%;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+
+        .title{
+            font-size: 15pt;
+        }
+    }
+
+    @media screen and (max-width: 300px) {
+        .actualSkills{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

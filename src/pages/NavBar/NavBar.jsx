@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './NavBar.module.css'
+import stylesMobile from './NavMenuMobile.module.css'
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { EngWave } from '../../components/Language'
 import { EspWave } from '../../components/Language'
 import DarkMode from '../../components/DarkMode/DarkMode';
 import { NavMenu } from './NavMenu';
+import { NavMenuMobile } from './NavMenuMobile' 
 
 export function NavBar() {
 
@@ -33,6 +35,10 @@ export function NavBar() {
 
         <div className={styles.NavbarMenu}>
             <NavMenu/>
+        </div>
+
+        <div className={stylesMobile.NavMenuMobile}>
+            <NavMenuMobile/>
         </div>
 
         <div className={styles.icons}>

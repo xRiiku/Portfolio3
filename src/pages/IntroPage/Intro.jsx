@@ -25,9 +25,6 @@ export function Intro() {
                 <span className={styles.typingDemo}>Daniel Ramon 'Rikudev'</span>
                 <p>{t('introPage.info')}</p>
             </div>
-
-
-            
         </div>
     );
 }
