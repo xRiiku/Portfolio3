@@ -5,21 +5,19 @@ import { useTranslation } from "react-i18next";
 
 export function NavMenuMobile() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isIconsVisible, setIsIconsVisible] = useState(true);
 
 
     const { t } = useTranslation()
 
     const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    setIsIconsVisible(!isMenuOpen);
     };
 
     return (
 
         <div className={styles.NavMenuMobile}>
             <FaBars onClick={toggleMenu} />
-            {isMenuOpen && isIconsVisible(
+            {isMenuOpen &&(
             <ul>
                 <li><a href='#home'>{t('navbar.home')}</a></li>
                 <li><a href='#skills'>{t('navbar.skills')}</a></li>
