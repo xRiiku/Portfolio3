@@ -8,6 +8,7 @@
 .NavMenuMobile ul {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     gap: 3rem;
     font-size: 15pt;
 }

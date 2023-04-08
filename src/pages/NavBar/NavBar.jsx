@@ -1,52 +1,58 @@
-import React from 'react';
-import styles from './NavBar.module.css'
+import React, { useState } from "react";
+import { EngWave, EspWave } from "../../components/Language";
+import DarkMode from "../../components/DarkMode/DarkMode.js";
+import { NavMenu } from "./NavMenu";
+import { NavMenuMobile } from "./NavMenuMobile";
+import styles from "./NavBar.module.css";
 import stylesMobile from './NavMenuMobile.module.css'
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { EngWave } from '../../components/Language'
-import { EspWave } from '../../components/Language'
-import DarkMode from '../../components/DarkMode/DarkMode';
-import { NavMenu } from './NavMenu';
-import { NavMenuMobile } from './NavMenuMobile' 
+import { useTranslation } from "react-i18next";
 
 export function NavBar() {
-
     const { i18n } = useTranslation();
-    const [language, setLenguage] = useState('es');
+    const [language, setLenguage] = useState("es");
+    const [showIconsAndLogo, setShowIconsAndLogo] = useState(true);
 
     const onChangeLanguage = () => {
         i18n.changeLanguage(language);
-            if (language === 'en') {
-                setLenguage('es');
-            } else {
-                setLenguage('en');
-            }
+        if (language === "en") {
+        setLenguage("es");
+        } else {
+        setLenguage("en");
+        }
     };
 
-    
-
+    const toggleShowIconsAndLogo = () => {
+        setShowIconsAndLogo(!showIconsAndLogo);
+    };
 
     return (
         <section className={styles.NavBar}>
-
-        <div className={styles.logo}>
+        {showIconsAndLogo && (
+            <div className={styles.logo}>
             <p>RikuDev</p>
-        </div>
+            </div>
+        )}
 
         <div className={styles.NavbarMenu}>
-            <NavMenu/>
+            <NavMenu />
         </div>
 
         <div className={stylesMobile.NavMenuMobile}>
-            <NavMenuMobile/>
+            <NavMenuMobile
+            toggleShowIconsAndLogo={toggleShowIconsAndLogo}
+            showIconsAndLogo={showIconsAndLogo}
+            />
         </div>
 
-        <div className={styles.icons}>
-            <span onClick={onChangeLanguage}> {language === 'en' ? <EngWave /> : <EspWave />}</span>
+        {showIconsAndLogo && (
+            <div className={styles.icons}>
+            <span onClick={onChangeLanguage}>
+                {language === "en" ? <EngWave /> : <EspWave />}
+            </span>
 
-            <DarkMode/>
-        </div>
-            
+            <DarkMode />
+            </div>
+        )}
         </section>
     );
-}
+    }
