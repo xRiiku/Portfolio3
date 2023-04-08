@@ -1,5 +1,19 @@
+.NavBarMobile{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 1;
+    opacity: 0.8;
+}
+
 .NavMenuMobile{
-    display: none
+    display: none;
+    cursor: pointer;
+    align-items: center;
 }
 .NavMenuMobile li a {
     text-decoration: none;
@@ -39,6 +53,9 @@
 
 @media screen and (max-width: 800px) {
     .NavMenuMobile {
+        display: flex;
+    }
+    .NavBarMobile{
         display: flex;
     }
 }

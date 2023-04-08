@@ -26,7 +26,7 @@ export function NavBar() {
     };
 
     return (
-        <section className={styles.NavBar}>
+        <section className={showIconsAndLogo ? styles.NavBar : stylesMobile.NavBarMobile}>
         {showIconsAndLogo && (
             <div className={styles.logo}>
             <p>RikuDev</p>
