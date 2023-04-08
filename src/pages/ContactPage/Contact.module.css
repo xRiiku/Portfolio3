@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
     padding: 8rem;
 }
 
@@ -13,7 +12,7 @@
 .leftContainer {
     display: flex;
     width: 40%;
-    height: 460px;
+    height: 660px;
     background-color: #00b4cf;
     color: white;
     justify-content: center;
@@ -42,8 +41,12 @@
 }
 
 .contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 40%;
-    height: 460px;
+    height: 660px;
     background-color: aliceblue;
     color: black;
     border-radius: 20px;
@@ -57,17 +60,21 @@
     gap: 20px;
 }
 
-form > input,
-form > textarea{
-    height: 30px;
+form > input{
+    height: 3rem;
     border: 1px solid #00b4cf;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
+    text-align: center;
 }
 
 form > textarea{
-    height:4rem;
+    height:6rem;
+    width: 15rem;
+    border: 1px solid #00b4cf;
+    border-radius: 10px;
     resize:none;
+    text-align: center;
 }
 
 input:focus, textarea:focus{
@@ -76,7 +83,6 @@ input:focus, textarea:focus{
 
 form > span{
     font-size: 10pt;
-    max-width: 20vw;
     padding-left: 3%;
     color: red;
 }
@@ -86,10 +92,8 @@ form > span{
 	border: 1px solid #00b4cf;
 	background-color: #00b4cf;
 	color: #FFFFFF;
-	font-size: 12px;
+	font-size: 10pt;
 	font-weight: bold;
-	padding: 0 45px;
-	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
     cursor:pointer;
@@ -99,125 +103,96 @@ form > span{
     opacity:0.7;
 }
 
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 960px) {
+    .contactPage {
+        padding: 8rem 0 5rem 0;
+
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+    .leftInfo h2 {
+        font-size:20pt;
+        text-align: center;
+    }
+    
     .leftInfo p {
+        font-size:12pt;
+        text-align: center;
         width: 20ch;
     }
 
-    @media screen and (max-width: 820px) {
-        .leftInfo p {
-            width: 15ch;
-        }
-
-        .title{
-            font-size: 10pt;
-        }
-
-        .leftContainer{
-            width: 50%;
-        }
-        .contactForm{
-            width: 50%;
-        }
-        .button{
-            padding: 0 40px;
-        }
-        form > span{
-            font-size: 8pt;
-            max-width: 17vw;
-        }
+    form > input{
+        height: 2rem;
+        width: 50%;
+        text-align: center;
+    }
+    
+    form > textarea{
+        height:4rem;
+        width: 10rem;
+    }
+    
+    form > span{
+        font-size: 8pt;
     }
 
-    @media screen and (max-width: 690px) {
-        .contactPage{
-            display: flex;
-            flex-direction: column;
-        }
-        .leftInfo p {
-            width: 15ch;
-        }
-
-        .title{
-            font-size: 10pt;
-        }
-
-        .leftContainer{
-            width: 70%;
-        }
-        .contactForm{
-            width: 70%;
-        }
-        .button{
-            padding: 0 35px;
-        }
+    .title{
+        font-size: 10pt;
     }
 
-    @media screen and (max-width: 550px) {
+}
 
-        .leftContainer{
-            width: 90%;
-        }
-        .contactForm{
-            width: 90%;
-        }
-        .leftInfo h2{
-            font-size: 20pt;
-        }
-        .leftInfo p{
-            font-size: 13pt;
-        }
-        .title{
-            font-size: 8pt;
-        }
-        form > input,
-        form > textarea{
-            height: 30px;
-            width: 80%;
-        }
-
-        .button{
-            font-size: 10px;
-            padding: 0 30px;
-        }
+@media screen and (max-width: 475px) {
+    .contactPage{
+        flex-direction: column;
     }
 
-    @media screen and (max-width: 440px) {
-
-        .leftContainer{
-            width: 100%;
-        }
-        .contactForm{
-            width: 100%;
-        }
-        .leftInfo h2{
-            font-size: 15pt;
-        }
-        .leftInfo p{
-            font-size: 10pt;
-        }
-        .title{
-            font-size: 7pt;
-        }
-        .button{
-            padding: 0 25px;
-        }
-        form > span{
-            font-size: 6pt;
-            max-width: 20vw;
-        }
+    .leftInfo h2 {
+        font-size:15pt;
+    }
+    
+    .leftInfo p {
+        font-size:12pt;
+        width: 15ch;
     }
 
-    @media screen and (max-width: 440px) {
-
-        
-        .leftInfo h2{
-            font-size: 12pt;
-        }
-        .leftInfo p{
-            font-size: 9pt;
-            width: 13ch;
-        }
-        
+    form > input{
+        height: 2rem;
+        width: 90%;
+    }
+    
+    form > textarea{
+        width: 90%;
+    }
+    
+    form > span{
+        font-size: 8pt;
     }
 
+    .title{
+        font-size: 9pt;
+    }
+
+    .button {
+        font-size: 7pt;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .title{
+        font-size: 7pt;
+    }
+
+    .leftInfo h2 {
+        font-size:12pt;
+    }
+    
+    .leftInfo p {
+        font-size:9pt;
+        width: 12ch;
+    }
 }
