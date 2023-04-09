@@ -25,13 +25,13 @@ export function Skills() {
             </div>
 
             <div className={styles.actualSkills}>
-                <img src={html} alt='' />
-                <img src={css} alt='' />
-                <img src={javascript} alt='' />
-                <img src={react} alt='' />
-                <img src={sass} alt='' />
-                <img src={git} alt='' />
-                <img src={github} alt='' />
+                <img src={html} alt='Logo de html5' />
+                <img src={css} alt='Logo de css3' />
+                <img src={javascript} alt='Logo de javascript' />
+                <img src={react} alt='Logo de react' />
+                <img src={sass} alt='Logo de sass' />
+                <img src={git} alt='Logo de git' />
+                <img src={github} alt='Logo de github' />
             </div>
 
             <div className={styles.title}>
@@ -39,11 +39,11 @@ export function Skills() {
             </div>
 
             <div className={styles.futureSkills}>
-                <img src={nextjs} alt='' />
-                <img src={mongodb} alt='' />
-                <img src={nodejs} alt='' />
-                <img src={typescript} alt='' />
-                <img src={bootstrap} alt='' />
+                <img src={nextjs} alt='Logo de nextjs' />
+                <img src={mongodb} alt='Logo de mongodb' />
+                <img src={nodejs} alt='Logo de nodejs' />
+                <img src={typescript} alt='Logo de typescript' />
+                <img src={bootstrap} alt='Logo de bootstrap' />
             </div>
 
         </section>
