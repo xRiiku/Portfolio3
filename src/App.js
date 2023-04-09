@@ -1,9 +1,9 @@
 import { NavBar } from './pages/NavBar/NavBar';
 import { Intro } from './pages/IntroPage/Intro.jsx'
 import { Skills } from './pages/Skills/Skills'
-import ProjectsSlider from './pages/ProjectsPage/ProjectsSlider';
 import { Contact } from './pages/ContactPage/Contact';
 import Footer from './pages/Footer/Footer';
+import { Slider } from './pages/ProjectsPage/Slider';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <NavBar/>
       <Intro/>
       <Skills/>
-      <ProjectsSlider/>
+      <Slider/>
       <Contact/>
       <Footer/>
     </div>
