@@ -45,7 +45,7 @@ export function ProjectsSlider () {
             <section className={styles.container} id="projects">
 
                 <div className={styles.title}>
-                    <h1>{t('projects.title')}</h1>
+                    <h2>{t('projects.title')}</h2>
                 </div>
 
                 <div id='body' className={styles.slider}>

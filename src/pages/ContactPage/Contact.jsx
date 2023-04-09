@@ -63,7 +63,7 @@ export function Contact() {
 
             <div className={styles.contactForm}>
                 <div className={styles.title}>
-                    <h1>{t('contact.title')}</h1>
+                    <h2>{t('contact.title')}</h2>
                 </div>
 
                 <form onSubmit={handleSubmit}>

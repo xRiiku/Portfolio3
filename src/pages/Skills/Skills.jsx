@@ -21,7 +21,7 @@ export function Skills() {
     return (
         <section className={styles.skillsDiv} id='skills'>
             <div className={styles.title}>
-                <h1>{t('skills.actual')}</h1>
+                <h2>{t('skills.current')}</h2>
             </div>
 
             <div className={styles.actualSkills}>
@@ -35,7 +35,7 @@ export function Skills() {
             </div>
 
             <div className={styles.title}>
-                <h1>{t('skills.future')}</h1>
+                <h2>{t('skills.future')}</h2>
             </div>
 
             <div className={styles.futureSkills}>
