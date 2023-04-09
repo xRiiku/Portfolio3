@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    text-align: center;
 }
 
 .SocialMedia img {
@@ -12,6 +13,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    color: #34B0BE;
+    cursor: pointer;
 }
 
 .SocialMedia img:hover{

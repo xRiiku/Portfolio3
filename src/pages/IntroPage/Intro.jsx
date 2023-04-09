@@ -15,10 +15,10 @@ export function Intro() {
                 <SocialMedia/>
             </div>
 
-            <div className={styles.photo}>
-                <img src={iaPhoto} alt=''/>
-                <p>{t('introPage.IAimg')}</p>
-            </div>
+            <figure className={styles.photo}>
+                <img src={iaPhoto} alt='AI portrait of myself'/>
+                <figcaption>{t('introPage.IAimg')}</figcaption>
+            </figure>
 
             <div className={styles.info}>
                 <p>{t('introPage.greeting')}</p>

@@ -8,7 +8,11 @@
     "introPage.info": "Self-taught student of Front-end programming. Currently looking for my first work experience in the world of web development.",
     "introPage.IAimg": "AI generated image",
 
-    "skills.actual": "ACTUAL SKILLS",
+    "socialmedia.github": "View my Github projects",
+    "socialmedia.linkedin": "View my Linkedin profile",
+    "socialmedia.twitter": "View my Twitter profile",
+
+    "skills.actual": "CURRENT SKILLS",
     "skills.future": "FUTURE SKILLS",
 
     "projects.title" : "PROJECTS",
@@ -26,9 +30,9 @@
     "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript",
 
     "contact.title" : "CONTACT",
-    "contact.name" : "Name (Required)",
-    "contact.email" : "Email (Required)",
-    "contact.message" : "Message (Required)",
+    "contact.name" : "Name",
+    "contact.email" : "Email",
+    "contact.message" : "Message",
     "contact.send" : "Send",
 
     "contact.leftinfoh2" : "Let's Chat!",

@@ -68,13 +68,13 @@ export function Contact() {
 
                 <form onSubmit={handleSubmit}>
 
-                    <input type="text" placeholder={t('contact.name')} name="name" value={form.name} onChange={handleChange}/>
+                    <input type="text" placeholder={t('contact.name')} name="name" value={form.name} onChange={handleChange} required/>
                     <span>{errors.name}</span>
         
-                    <input type="email" placeholder={t('contact.email')} name="email" value={form.email} onChange={handleChange}/>
+                    <input type="email" placeholder={t('contact.email')} name="email" value={form.email} onChange={handleChange} required/>
                     <span>{errors.email}</span>
         
-                    <textarea placeholder={t('contact.message')} name="message" value={form.message} onChange={handleChange}/>
+                    <textarea placeholder={t('contact.message')} name="message" value={form.message} onChange={handleChange} required/>
                     <span>{errors.message}</span>
         
                     <input className={styles.button} type="submit" value={t('contact.send')} />
