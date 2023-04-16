@@ -37,13 +37,20 @@ export function Slider() {
         },
         {
             id: 5,
+            title: t('projects.calculator'),
+            description: t('projects.calculatorDesc'),
+            imageUrl: 'https://www.rikudev.com/SliderImages/Calculator.png',
+            link: 'https://rikudev.com/Calculator/index.html'
+        },
+        {
+            id: 6,
             title: t('projects.puzzle'),
             description: t('projects.puzzleDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/Puzzle.png',
             link: 'https://www.rikudev.com/Puzzle/index.html'
         },
         {
-            id: 6,
+            id: 7,
             title: t('projects.watch'),
             description: t('projects.watchDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/watch.png',

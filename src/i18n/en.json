@@ -28,6 +28,8 @@
     "projects.pokedexDesc" : "Pokedex did to practise hooks and fetch",
     "projects.portfoliov1" : "Portfolio V1",
     "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript",
+    "projects.calculator" : "calculator",
+    "projects.calculatorDesc" : "Calculator made with Vite-React",
 
     "contact.title" : "CONTACT",
     "contact.name" : "Name",

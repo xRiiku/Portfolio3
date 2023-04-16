@@ -29,6 +29,8 @@
     "projects.pokedexDesc" : "Pokedex hecha para practicar hooks y fetch",
     "projects.portfoliov1" : "Portafolio V1",
     "projects.portfoliov1Desc" : "Portafolio de práctica de html, css y javascript",
+    "projects.calculator" : "Calculadora",
+    "projects.calculatorDesc" : "Calculadora hecha con Vite-React",
 
     "contact.title" : "CONTACTO",
     "contact.name" : "Nombre",
