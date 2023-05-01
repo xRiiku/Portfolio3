@@ -1,12 +1,12 @@
 .SocialMedia{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 4em;
     text-align: center;
 }
 
 .SocialMedia img {
-    max-width: 20%;
+    width: 3.5em;
 }
 
 .SocialMedia a{
