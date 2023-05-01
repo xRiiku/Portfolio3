@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 8rem;
+    gap: 1em
 }
 
 
@@ -11,14 +12,14 @@
 
 .leftContainer {
     display: flex;
-    width: 40%;
+    width: 40vw;
     height: 660px;
     background-color: #00b4cf;
     color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 2em;
 }
 
 .leftInfo h2 {
@@ -28,7 +29,7 @@
 }
 
 .leftInfo p {
-    font-size:15pt;
+    font-size:20pt;
     text-align: center;
     width: 25ch;
 }
@@ -45,11 +46,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 40%;
+    width: 40vw;
     height: 660px;
     background-color: aliceblue;
     color: black;
-    border-radius: 20px;
+    border-radius: 2em;
 }
 
 .contactForm form {
@@ -57,14 +58,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.5em;
 }
 
 form > input{
     height: 3rem;
     border: 1px solid #00b4cf;
     border-radius: 10px;
-    width: 70%;
+    width: 15rem;
     text-align: center;
 }
 
@@ -88,7 +89,7 @@ form > span{
 }
 
 .button {
-	border-radius: 20px;
+	border-radius: 1em;
 	border: 1px solid #00b4cf;
 	background-color: #00b4cf;
 	color: #FFFFFF;
@@ -103,96 +104,49 @@ form > span{
     opacity:0.7;
 }
 
-@media screen and (max-width: 960px) {
-    .contactPage {
-        padding: 8rem 0 5rem 0;
 
-        justify-content: center;
-    }
-
-}
-
-@media screen and (max-width: 665px) {
-    .leftInfo h2 {
-        font-size:20pt;
-        text-align: center;
-    }
-    
-    .leftInfo p {
-        font-size:12pt;
-        text-align: center;
-        width: 20ch;
-    }
-
-    form > input{
-        height: 2rem;
-        width: 50%;
-        text-align: center;
-    }
-    
-    form > textarea{
-        height:4rem;
-        width: 10rem;
-    }
-    
-    form > span{
-        font-size: 8pt;
-    }
-
-    .title{
-        font-size: 10pt;
-    }
-
-}
-
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 960px){
     .contactPage{
+        display: flex;
         flex-direction: column;
     }
-
-    .leftInfo h2 {
-        font-size:15pt;
-    }
-    
-    .leftInfo p {
-        font-size:12pt;
-        width: 15ch;
-    }
-
-    form > input{
-        height: 2rem;
-        width: 90%;
-    }
-    
-    form > textarea{
-        width: 90%;
-    }
-    
-    form > span{
-        font-size: 8pt;
-    }
-
-    .title{
-        font-size: 9pt;
-    }
-
-    .button {
-        font-size: 7pt;
+    .leftContainer, .contactForm {
+        width: 60vw;
     }
 }
 
-@media screen and (max-width: 350px) {
-
-    .title{
-        font-size: 7pt;
+@media screen and (max-width: 625px){
+    .contactForm form{
+        gap: 1em;
     }
 
-    .leftInfo h2 {
-        font-size:12pt;
+    .leftContainer, .contactForm {
+        width: 80vw;
+        height: 500px;
+    }
+
+    form > span{
+        font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 445px){
+    .leftInfo p {
+        font-size:15pt;
+        width: 20ch;
+    }
+}
+
+@media screen and (max-width: 320px){
+    form > input, form > textarea{
+        width: 12rem;
     }
     
-    .leftInfo p {
-        font-size:9pt;
-        width: 12ch;
+    .button {
+        border-radius: 1em;
+        border: 1px solid #00b4cf;
+        background-color: #00b4cf;
+        color: #FFFFFF;
+        font-size: 10pt;
     }
 }
