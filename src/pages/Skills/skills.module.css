@@ -43,9 +43,9 @@
     }
 
     @media screen and (max-width: 675px) {
-        .currentSkills {
+        .currentSkills, .futureSkills {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
         }
         .title{
             text-align: center;
@@ -66,13 +66,6 @@
 
         .title{
             font-size: 15pt;
-        }
-    }
-
-    @media screen and (max-width: 300px) {
-        .currentSkills{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
         }
     }
 }

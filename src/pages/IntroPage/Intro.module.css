@@ -54,19 +54,14 @@
     }
 
     .info{
-        width: 35ch;
+        width: 33ch;
     }
 }
 
 @media screen and (max-width: 945px) {
 
-    .photo img{
-        width: 200px;
-        height: 250px;
-    }
-
     .info{
-        width: 32ch;
+        width: 33ch;
     }
 
     .typingDemo{
@@ -78,7 +73,7 @@
 
     .info{
         font-size: 20pt;
-        width: 33ch;
+        width: 35ch;
     }
 
     .typingDemo{
@@ -92,9 +87,10 @@
         gap: 1em;
     }
     .info{
-        width: 23ch;
+        width: 28ch;
         font-size: 15pt;
     }
+
     .typingDemo{
         font-size: 17pt;
     }
@@ -109,6 +105,11 @@
     
         .typingDemo{
             font-size: 14pt;
+        }
+
+        .photo img{
+            width: 200px;
+            height: 250px;
         }
     }
 }
