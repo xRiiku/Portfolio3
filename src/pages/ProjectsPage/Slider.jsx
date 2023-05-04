@@ -7,7 +7,6 @@ export function Slider() {
     const { t } = useTranslation()
 
     const slidesData = [
-
         {
             id: 1,
             title: t('projects.pokedex'),
@@ -15,7 +14,6 @@ export function Slider() {
             imageUrl: 'https://www.rikudev.com/SliderImages/Pokedex.png',
             link: 'https://www.rikudev.com/Pokedex/index.html'
         },
-
         {
             id: 2,
             title: t('projects.clone'),
@@ -23,7 +21,6 @@ export function Slider() {
             imageUrl: 'https://www.rikudev.com/SliderImages/Coinbase.png',
             link: 'https://www.rikudev.com/Coinbase/html/proyecto.html'
         },
-
         {
             id: 3,
             title: t('projects.githubProfileSearch'),
@@ -31,7 +28,6 @@ export function Slider() {
             imageUrl: 'https://www.rikudev.com/SliderImages/githubProfileSearch.png',
             link: 'https://www.rikudev.com/githubProfileSearch/index.html'
         },
-
         {
             id: 4,
             title: t('projects.calculator'),
@@ -39,7 +35,6 @@ export function Slider() {
             imageUrl: 'https://www.rikudev.com/SliderImages/Calculator.png',
             link: 'https://rikudev.com/Calculator/index.html'
         },
-
         {
             id: 5,
             title: t('projects.portfoliov1'),
@@ -54,8 +49,6 @@ export function Slider() {
             imageUrl: 'https://www.rikudev.com/SliderImages/PortfolioV2.png',
             link: 'https://www.rikudev.com/PortfolioV2/index.html'
         },
-        
-        
         {
             id: 7,
             title: t('projects.puzzle'),
@@ -107,7 +100,7 @@ export function Slider() {
             </div>
             ))}
         </div>
-         <div className='slider-controls'>
+        <div className='slider-controls'>
             <button onClick={goToPrevSlide} className='prev'>Prev</button>
             <button onClick={goToNextSlide} className='next'>Next</button>
         </div>
