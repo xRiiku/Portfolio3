@@ -87,8 +87,9 @@
         gap: 1em;
     }
     .info{
-        width: 28ch;
-        font-size: 15pt;
+        width: 30ch;
+        font-size: 18pt;
+        margin: 0 auto;
     }
 
     .typingDemo{
@@ -96,7 +97,7 @@
     }
     }
 
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 400px) {
 
         .info{
             font-size: 13pt;

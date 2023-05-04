@@ -25,11 +25,26 @@
         gap: 20px;
     }
 
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 560px) {
+    
+        .SocialMedia{
+            gap: 6.5em;
+        }
+        }
+
+    @media screen and (max-width: 400px) {
     
         .SocialMedia{
             display: flex;
-            gap: 10px;
+            gap: 3em;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+    
+        .SocialMedia{
+            display: flex;
+            gap: 2em;
         }
     }
     
