@@ -1,7 +1,6 @@
 .NavBar{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     border-bottom: solid 1px;
     width: 100%;
     position: fixed;
@@ -20,7 +19,6 @@
     align-items: center;
 }
 
-
 .NavbarMenu li a {
     text-decoration: none;
     color: #34B0BE
@@ -33,7 +31,7 @@
 
 .NavbarMenu ul li {
     list-style: none;
-    margin: 0 1rem;
+    margin: 0 1rem 0 0;
     cursor: pointer;
     position: relative;
 }

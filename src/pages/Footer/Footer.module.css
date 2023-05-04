@@ -1,4 +1,9 @@
 .footer{
     text-align: center;
     background-color: rgb(219, 235, 248);
+    font-size: 15pt;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

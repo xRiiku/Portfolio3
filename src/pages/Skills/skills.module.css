@@ -9,23 +9,26 @@
     gap: 2rem;
 }
 
-.actualSkills{
+.currentSkills{
     display: flex;
     gap: 3rem;
+    margin: 1em;
 }
 
 .futureSkills{
     display: flex;
     gap: 3rem;
     padding-bottom: 2rem;
+    margin: 1em;
 }
 
 .title{
     font-size: 20pt;
+    margin: 1em;
 }
 
 @media screen and (max-width: 1201px) {
-    .actualSkills {
+    .currentSkills {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
 
@@ -40,15 +43,17 @@
     }
 
     @media screen and (max-width: 675px) {
-        .actualSkills {
+        .currentSkills {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-    
+        }
+        .title{
+            text-align: center;
         }
     }
 
     @media screen and (max-width: 500px) {
-        .actualSkills img{
+        .currentSkills img{
             max-width: 60%;
         }
 
@@ -65,7 +70,7 @@
     }
 
     @media screen and (max-width: 300px) {
-        .actualSkills{
+        .currentSkills{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
         }

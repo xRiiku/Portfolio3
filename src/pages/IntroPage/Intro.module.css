@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
     padding-top: 8rem;
     padding-bottom: 3rem;
 }
@@ -17,7 +18,7 @@
 
 .info{
     font-size: 25pt;
-    width: 45ch;
+    width: 33ch;
     text-align: left;
     margin-left: 50px;
     
@@ -46,8 +47,10 @@
 
 @media screen and (max-width: 1068px) {
     .introPage {
+        display: flex;
         flex-wrap: wrap-reverse;
-        justify-content: flex-end;
+        justify-content: center;
+        flex-direction:row-reverse ;
     }
 
     .info{
@@ -61,13 +64,9 @@
         width: 200px;
         height: 250px;
     }
+
     .info{
-        width: 25ch;
-        font-size: 20pt;
-    }
-    .introPage {
-        flex-wrap: wrap-reverse;
-        justify-content: center;
+        width: 32ch;
     }
 
     .typingDemo{
@@ -78,7 +77,8 @@
 @media screen and (max-width: 750px) {
 
     .info{
-        font-size: 15pt;
+        font-size: 20pt;
+        width: 33ch;
     }
 
     .typingDemo{
@@ -87,19 +87,28 @@
 
     @media screen and (max-width: 560px) {
     
-        .typingDemo{
-            font-size: 19pt;
-        }
+    .introPage{
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+    .info{
+        width: 23ch;
+        font-size: 15pt;
+    }
+    .typingDemo{
+        font-size: 17pt;
+    }
     }
 
     @media screen and (max-width: 350px) {
 
         .info{
             font-size: 13pt;
+            width: 25ch;
         }
     
         .typingDemo{
-            font-size: 17pt;
+            font-size: 14pt;
         }
     }
 }

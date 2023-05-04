@@ -11,9 +11,7 @@ export function Intro() {
     return (
         <div className={styles.introPage} id='home'>
 
-            <div>
                 <SocialMedia/>
-            </div>
 
             <figure className={styles.photo}>
                 <img src={iaPhoto} alt='AI portrait of myself'/>
