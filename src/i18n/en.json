@@ -26,6 +26,8 @@
     "projects.portfoliov1Desc" : "Portfolio i did to practise html, css and javascript",
     "projects.calculator" : "Calculator",
     "projects.calculatorDesc" : "Calculator made with Vite-React",
+    "projects.githubProfileSearch" : "GitHub Profile finder",
+    "projects.githubProfileSearchDesc" : "Finder made with Vite-React",
 
     "contact.title" : "CONTACT",
     "contact.name" : "Name",
