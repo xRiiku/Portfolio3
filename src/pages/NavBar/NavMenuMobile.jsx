@@ -24,7 +24,7 @@ export function NavMenuMobile({ toggleShowIconsAndLogo }) {
             <div className={isMenuOpen ? styles.NavBarMobile : styles.NavMenuMobile}>
                 <div className={styles.NavMenuMobile}>
                 
-                <FaBars size={35} onClick={toggleMenu} />
+                <FaBars className={styles.burguerMenu} size={35} onClick={toggleMenu} />
                 {isMenuOpen && (
                     <ul>
                     <li>

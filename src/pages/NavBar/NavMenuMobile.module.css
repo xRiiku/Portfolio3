@@ -4,17 +4,24 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    width: 100%;
     position: fixed;
     background-color: aliceblue;
     z-index: 1;
-    opacity: 0.8;
 }
 
 .NavMenuMobile{
     display: none;
-    cursor: pointer;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem
 }
+
+.burguerMenu{
+    cursor: pointer;
+}
+
 .NavMenuMobile li a {
     text-decoration: none;
     color: #34B0BE
