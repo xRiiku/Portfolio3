@@ -26,7 +26,7 @@ export function Slider() {
             title: t('projects.githubProfileSearch'),
             description: t('projects.githubProfileSearchDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/githubProfileSearch.png',
-            link: 'https://www.rikudev.com/githubProfileSearch/index.html'
+            link: 'https://rikudev.com/githubProfileFinder/index.html'
         },
         {
             id: 4,
