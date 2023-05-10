@@ -27,7 +27,7 @@
     margin: 1em;
 }
 
-@media screen and (max-width: 1201px) {
+@media screen and (max-width: 1360px) {
     .currentSkills {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

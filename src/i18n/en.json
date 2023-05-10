@@ -28,6 +28,8 @@
     "projects.calculatorDesc" : "Calculator made with Vite-React",
     "projects.githubProfileSearch" : "GitHub Profile finder",
     "projects.githubProfileSearchDesc" : "Finder made with Vite-React",
+    "projects.musicplayer" : "Music Player",
+    "projects.musicplayerDesc" : "Player made to practise hooks and tailwind",
 
     "contact.title" : "CONTACT",
     "contact.name" : "Name",

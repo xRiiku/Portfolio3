@@ -37,27 +37,34 @@ export function Slider() {
         },
         {
             id: 5,
+            title: t('projects.musicplayer'),
+            description: t('projects.musicplayerDesc'),
+            imageUrl: 'https://www.rikudev.com/SliderImages/MusicPlayer.png',
+            link: 'https://rikudev.com/MusicPlayer/index.html'
+        },
+        {
+            id: 10,
             title: t('projects.portfoliov1'),
             description: t('projects.portfoliov1Desc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/PortfolioV1.png',
             link: 'https://www.rikudev.com/PortfolioV1/index.html'
         },
         {
-            id: 6,
+            id: 11,
             title: t('projects.portfoliov2'),
             description: t('projects.portfoliov2Desc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/PortfolioV2.png',
             link: 'https://www.rikudev.com/PortfolioV2/index.html'
         },
         {
-            id: 7,
+            id: 12,
             title: t('projects.puzzle'),
             description: t('projects.puzzleDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/Puzzle.png',
             link: 'https://www.rikudev.com/Puzzle/index.html'
         },
         {
-            id: 8,
+            id: 13,
             title: t('projects.watch'),
             description: t('projects.watchDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/watch.png',

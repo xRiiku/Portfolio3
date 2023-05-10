@@ -29,6 +29,8 @@
     "projects.calculatorDesc" : "Calculadora hecha con Vite-React",
     "projects.githubProfileSearch" : "Buscador de Perfiles GitHub",
     "projects.githubProfileSearchDesc" : "Buscador hecho con Vite-React",
+    "projects.musicplayer" : "Reproductor de Música",
+    "projects.musicplayerDesc" : "Reproductor hecho para practicar hooks y tailwind",
 
     "contact.title" : "CONTACTO",
     "contact.name" : "Nombre",

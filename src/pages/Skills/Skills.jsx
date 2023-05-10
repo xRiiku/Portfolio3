@@ -12,6 +12,7 @@ import mongodb from '../../assets/images/mongodb.png'
 import nodejs from '../../assets/images/nodejs.svg'
 import typescript from '../../assets/images/typescript.svg'
 import bootstrap from '../../assets/images/bootstrap.svg'
+import tailwind from '../../assets/images/tailwindcss.png'
 import { useTranslation } from 'react-i18next';
 
 export function Skills() {
@@ -30,6 +31,7 @@ export function Skills() {
                 <img src={javascript} alt='Logo de javascript' />
                 <img src={react} alt='Logo de react' />
                 <img src={sass} alt='Logo de sass' />
+                <img src={tailwind} alt='Logo de tailwind' />
                 <img src={git} alt='Logo de git' />
                 <img src={github} alt='Logo de github' />
             </div>
