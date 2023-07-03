@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://www.rikudev.com/Portfolio3",
+  "homepage": "https://portfolio3.rikudev.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

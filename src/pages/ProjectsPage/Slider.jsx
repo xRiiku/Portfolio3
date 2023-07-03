@@ -12,63 +12,63 @@ export function Slider() {
             title: t('projects.pokedex'),
             description: t('projects.pokedexDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/Pokedex.png',
-            link: 'https://www.rikudev.com/Pokedex/index.html'
+            link: 'https://pokedex.rikudev.com/'
         },
         {
             id: 2,
             title: t('projects.clone'),
             description: t('projects.cloneDesc') ,
             imageUrl: 'https://www.rikudev.com/SliderImages/Coinbase.png',
-            link: 'https://www.rikudev.com/Coinbase/html/proyecto.html'
+            link: 'https://coinbase.rikudev.com/'
         },
         {
             id: 3,
             title: t('projects.githubProfileSearch'),
             description: t('projects.githubProfileSearchDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/githubProfileSearch.png',
-            link: 'https://rikudev.com/githubProfileFinder/index.html'
+            link: 'https://githubfinder.rikudev.com/'
         },
         {
             id: 4,
             title: t('projects.calculator'),
             description: t('projects.calculatorDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/Calculator.png',
-            link: 'https://rikudev.com/Calculator/index.html'
+            link: 'https://calculator.rikudev.com/'
         },
         {
             id: 5,
             title: t('projects.musicplayer'),
             description: t('projects.musicplayerDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/MusicPlayer.png',
-            link: 'https://rikudev.com/MusicPlayer/index.html'
+            link: 'https://musicplayer.rikudev.com/'
         },
         {
             id: 10,
             title: t('projects.portfoliov1'),
             description: t('projects.portfoliov1Desc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/PortfolioV1.png',
-            link: 'https://www.rikudev.com/PortfolioV1/index.html'
+            link: 'https://portfolio1.rikudev.com/'
         },
         {
             id: 11,
             title: t('projects.portfoliov2'),
             description: t('projects.portfoliov2Desc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/PortfolioV2.png',
-            link: 'https://www.rikudev.com/PortfolioV2/index.html'
+            link: 'https://portfolio2.rikudev.com/'
         },
         {
             id: 12,
             title: t('projects.puzzle'),
             description: t('projects.puzzleDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/Puzzle.png',
-            link: 'https://www.rikudev.com/Puzzle/index.html'
+            link: 'https://puzzle.rikudev.com/'
         },
         {
             id: 13,
             title: t('projects.watch'),
             description: t('projects.watchDesc'),
             imageUrl: 'https://www.rikudev.com/SliderImages/watch.png',
-            link: 'https://rikudev.com/Watch/index.html'
+            link: 'https://watch.rikudev.com/'
         }
     ];
 
